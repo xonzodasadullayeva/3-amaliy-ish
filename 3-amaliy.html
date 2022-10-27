@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>2-Amaliy ish</title>
+</head>
+<body>
+	<p>2-amaliy ish</p> <endl>
+		<p>Ikki xonali son berilgan. Ularning raqamlarining yig'indisini topish dasturi tuzilsin.
+	</p>
+<script>
+	
+let son=Number(prompt('sonni kiriting:'));
+let yigindi=0;
+console.log(son);
+while(son>0){
+	yigindi=yigindi+son%10;
+	son=parseInt(son/10);
+}
+console.log(`yigindi=${yigindi}`);
+
+</script>
+
+</body>
+</html>
